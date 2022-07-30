@@ -2,6 +2,88 @@
 
 {% block content %}
 
-<h1>Pagina register.htlm</h1>
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Que esperas para <span>REGISTRARTE</span> en Nifty</h3>
+        <p>Una vez que cuentes con cuenta sera mas sencillo llevar a cabo el proceso de compra.</p>
+    </div>
+
+</section>
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>Register</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="content">
+                <form class="row g-4">
+                    <div class="input-group">
+                        <span class="input-group-text">Email and password</span>
+                        <input type="email" aria-label="Email" class="form-control" required>
+                        <input type="password" aria-label="Password" class="form-control" required>
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-text">First and last name</span>
+                        <input type="text" aria-label="First name" class="form-control">
+                        <input type="text" aria-label="Last name" class="form-control">
+                    </div>
+
+                    <div class="col-6">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-6">
+                        <label for="inputAddress2" class="form-label">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!--<div class="box">
+            <img src="image/blog-1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, expedita.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>-->
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
 
 {% endblock %}

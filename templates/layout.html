@@ -59,26 +59,6 @@
                     <span class="quantity">qty : 1</span>
                 </div>
             </div>
-            <div class="box">
-                <i class="fas fa-trash"></i>
-                <img src="image/cart-img-2.png" alt="">
-                <div class="content">
-                    <h3>product</h3>
-                    <span class="price">$0.00/-</span>
-                    <span class="quantity">qty : 1</span>
-                </div>
-            </div>
-            <div class="box">
-                <i class="fas fa-trash"></i>
-                <img src="image/cart-img-3.png" alt="">
-                <div class="content">
-                    <h3>product</h3>
-                    <span class="price">$0.00/-</span>
-                    <span class="quantity">qty : 1</span>
-                </div>
-            </div>
-            <div class="total"> total : $0.00/- </div>
-            <a href="#" class="btn">checkout</a>
         </div>
 
         <!-- Login -->
@@ -89,6 +69,15 @@
             <p>forget your password <a href="{{url_for('recoveracc')}}">click here</a></p>
             <p>don't have an account <a href="{{url_for('register')}}">create now</a></p>
             <input type="submit" value="login now" class="btn">
+        </form>
+
+        <!-- Register -->
+        <form action="" class="login-form">
+            <h3>Quick register</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>Login <a href="{{url_for('recoveracc')}}">now</a></p>
+            <input type="submit" value="Create now" class="btn">
         </form>
 
     </header>
@@ -105,7 +94,7 @@
         <div class="box-container">
 
             <div class="box">
-                <h3> groco <i class="fas fa-shopping-basket"></i> </h3>
+                <h3> Nifty <i class="fas fa-shopping-basket"></i> </h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
                 <div class="share">
                     <a href="#" class="fab fa-facebook-f"></a>
@@ -133,17 +122,9 @@
                 <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
             </div>
 
-            <div class="box">
-                <h3>newsletter</h3>
-                <p>subscribe for latest updates</p>
-                <input type="email" placeholder="your email" class="email">
-                <input type="submit" value="subscribe" class="btn">
-                <img src="image/payment.png" class="payment-img" alt="">
-            </div>
-
         </div>
 
-        <div class="credit"> created by <span> mr. web designer </span> | all rights reserved </div>
+        <div class="credit"> created by <span> Alejandro García </span> | all rights reserved </div>
 
     </section>
 

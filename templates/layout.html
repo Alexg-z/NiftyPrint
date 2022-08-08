@@ -32,7 +32,6 @@
             <a href="#features">features</a>
             <a href="#products">products</a>
             <a href="#categories">categories</a>
-            <a href="#review">review</a>
         </nav>
 
         <div class="icons">
@@ -55,8 +54,8 @@
                 <img src="image/cart-img-1.png" alt="">
                 <div class="content">
                     <h3>product</h3>
-                    <span class="price">$0.00/-</span>
-                    <span class="quantity">qty : 1</span>
+                    <span class="price">Price/-</span>
+                    <span class="quantity">Quantity</span>
                 </div>
             </div>
         </div>
@@ -66,18 +65,9 @@
             <h3>login now</h3>
             <input type="email" placeholder="your email" class="box">
             <input type="password" placeholder="your password" class="box">
-            <p>forget your password <a href="{{url_for('recoveracc')}}">click here</a></p>
-            <p>don't have an account <a href="{{url_for('register')}}">create now</a></p>
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
             <input type="submit" value="login now" class="btn">
-        </form>
-
-        <!-- Register -->
-        <form action="" class="login-form">
-            <h3>Quick register</h3>
-            <input type="email" placeholder="your email" class="box">
-            <input type="password" placeholder="your password" class="box">
-            <p>Login <a href="{{url_for('recoveracc')}}">now</a></p>
-            <input type="submit" value="Create now" class="btn">
         </form>
 
     </header>
@@ -105,26 +95,12 @@
             </div>
 
             <div class="box">
-                <h3>contact info</h3>
-                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-                <a href="#" class="links"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
-                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </a>
+                <h3>change color</h3>
+                <div>
+                    <input type="color" id="colorpicker" value="#c41313">
+                </div>
             </div>
-
-            <div class="box">
-                <h3>quick links</h3>
-                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
-                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
-                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
-                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
-                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
-                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
-            </div>
-
         </div>
-
-        <div class="credit"> created by <span> Alejandro García </span> | all rights reserved </div>
 
     </section>
 

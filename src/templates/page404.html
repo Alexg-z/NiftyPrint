@@ -1,0 +1,29 @@
+{% extends './layout.html' %}
+
+{% block title %}Not found{% endblock %}
+
+{% block customCSS %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/page404.css') }}">
+{% endblock %}
+
+{% block body %}
+
+<div class="text-center cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+        <div>
+            <h3 class="float-md-start mb-0">Error 404</h3>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+                <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="/">Home</a>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <main class="px-3">
+        <h1>Not found.</h1>
+        <p class="lead">The resource requested could not be open on this server.</p>
+    </main>
+</div>
+
+
+
+{% endblock %}

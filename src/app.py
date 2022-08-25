@@ -56,6 +56,7 @@ def logout():
 
 
 @app.route('/home')
+@login_required
 def home():
     return render_template('home.html')
 
@@ -71,7 +72,9 @@ def status_401(error):
 
 
 def status_404(error):
-    return "<h1>Página no encontrada</h1>", 404
+    # return "<h1>Página no encontrada</h1>", 404
+    return render_template('page404.html'), 404
+
 
 
 if __name__ == '__main__':

@@ -38,7 +38,7 @@ def login():
         if logged_user != None:
             if logged_user.password:
                 login_user(logged_user)
-                return redirect(url_for('home'))
+                return redirect(url_for('index_page'))
             else:
                 flash("Invalid password...")
                 return render_template('auth/login.html')
@@ -60,6 +60,10 @@ def logout():
 def home():
     return render_template('home.html')
 
+@app.route('/index')
+@login_required
+def index_page():
+    return render_template('index.html')
 
 @app.route('/protected')
 @login_required

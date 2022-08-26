@@ -6,7 +6,7 @@ Sitio web para venta y atención a pedidos.
 
 Se llevaron diversos cambios respecto a la primera entrega del sitio.
 
-Cambios:
+### Cambios:
 - Conexión a base de datos.
 - Incorporación de login y verificacion de usuarios.
 - Protección de rutas, depende de si a iniciado sesión.
